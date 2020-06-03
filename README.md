@@ -1,2 +1,2 @@
 # 2020xxxx	Minsoo Kim
-# Kookmin Univ. SW
+# Kookmin Univ. Computer Science
