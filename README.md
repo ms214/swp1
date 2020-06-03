@@ -1,2 +1,2 @@
-20203037 Minsoo Kim
-Kookmin Univ. SW
+# 20203037 Minsoo Kim
+# Kookmin Univ. SW
