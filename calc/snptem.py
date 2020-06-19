@@ -1,4 +1,4 @@
-html = b"""
+html = """
 <html>
 	<body>
 		<form action="">
@@ -6,7 +6,7 @@ html = b"""
 			b = <input type="number" name="b">
 			<input type="submit">
 		</form>
-		
+		%s
 	</body>
 </html>
 """
