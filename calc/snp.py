@@ -6,10 +6,10 @@ def application(environ, start_response):
 	a = d.get('a', [''])[0]
 	b = d.get('b', [''])[0]
 	htmltem ='' 
-	if '' not in [a, b]:
+	try:	
 		a, b = int(a), int(b)
 		htmltem="sum= "+str(a+b)+", multi= "+str(a*b)		
-	else:
+	except ValueError:
 		htmltem='Please Input a, b'
 	response_body = html % (htmltem)
 	start_response('200 OK', [
